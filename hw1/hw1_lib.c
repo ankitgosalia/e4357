@@ -8,13 +8,17 @@
 
 uint16_t gray_to_binary(uint16_t gray)
 {
-   /* add your code here */
-   return gray;
+  uint16_t bin = gray;
+  while ((gray = gray >> 1) != 0) {
+    bin = bin ^ gray;
+  }
+  return bin;
 }
+
 uint16_t binary_to_gray(uint16_t binary)
 {
-   /* add your code here */
-   return binary;
+  uint16_t gray = (binary >> 1) ^ binary;
+  return gray;
 }
 
 
