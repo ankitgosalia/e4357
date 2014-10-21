@@ -1,6 +1,21 @@
 Total Hours Spent: 1.5/1.5
 		   Actual/Expect
 
+
+
+- Total Code Lines: 6529 (Excluding blanks & comments)
+
+- Total Files: 82
+
+- Total Binary files: 6
+
+- Entry point address: 0x5dd
+
+
+
+
+
+
 4357 Embedded Firmware Essentials
 - Program Assignment #2
 
@@ -14,7 +29,7 @@ Total Hours Spent: 1.5/1.5
    b.	Exporting to GCC ARM Embedded 
 
    Note: Right Click your program, then select "export ..."
-
+   	       	     	  
 2. binwalk, objdump, nm to Analysis binaries files
    http://binwalk.org/
 
